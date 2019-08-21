@@ -1,0 +1,4 @@
+source 'https://supermarket.chef.io'
+
+cookbook 'node', git: 'https://github.com/adamkoy/Chef_nodejs.git'
+cookbook 'mongodb', git: 'https://github.com/adamkoy/Chef_mongodb.git'
