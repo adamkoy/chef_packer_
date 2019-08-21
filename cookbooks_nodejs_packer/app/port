@@ -1,0 +1,10 @@
+stream {
+    upstream ssh {
+        server 192.168.10.100;
+    }
+        server {
+        listen        3000;
+        proxy_pass    ssh;
+
+    }
+}
